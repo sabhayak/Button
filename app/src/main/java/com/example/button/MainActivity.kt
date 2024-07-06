@@ -20,8 +20,8 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-
         }
+
         val dec = findViewById<Button>(R.id.btn1)
         val inc = findViewById<Button>(R.id.btn2)
         val reset = findViewById<Button>(R.id.btn3)
